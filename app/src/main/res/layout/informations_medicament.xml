@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/texteDepotLegal"
+        style="@style/labelInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/infosMed_depotLegal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texteNomCommercial"
+        style="@style/labelInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/infosMed_nomCommercial"
+        app:layout_constraintStart_toStartOf="@+id/texteDepotLegal"
+        app:layout_constraintTop_toBottomOf="@+id/depotLegal" />
+
+    <TextView
+        android:id="@+id/textePrixEchantillon"
+        style="@style/labelInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/infosMed_prixEchantillon"
+        app:layout_constraintStart_toStartOf="@+id/texteNomCommercial"
+        app:layout_constraintTop_toBottomOf="@+id/nomCommercial" />
+
+    <TextView
+        android:id="@+id/texteFamCode"
+        style="@style/labelInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/infosMed_famCode"
+        app:layout_constraintStart_toStartOf="@+id/textePrixEchantillon"
+        app:layout_constraintTop_toBottomOf="@+id/prixEchantillon" />
+
+    <EditText
+        android:id="@+id/depotLegal"
+        style="@style/textes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:autofillHints="@string/hint_depotLegal"
+        android:hint="@string/hint_depotLegal"
+        android:inputType="textMultiLine|text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/texteDepotLegal"
+        app:layout_constraintTop_toBottomOf="@+id/texteDepotLegal" />
+
+    <EditText
+        android:id="@+id/nomCommercial"
+        style="@style/textes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:autofillHints="@string/hint_nomCommercial"
+        android:hint="@string/hint_nomCommercial"
+        android:inputType="textMultiLine|text"
+        app:layout_constraintEnd_toEndOf="@+id/depotLegal"
+        app:layout_constraintStart_toStartOf="@+id/depotLegal"
+        app:layout_constraintTop_toBottomOf="@+id/texteNomCommercial" />
+
+    <EditText
+        android:id="@+id/prixEchantillon"
+        style="@style/textes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:autofillHints="@string/hint_depotLegal"
+        android:hint="@string/hint_prixEchantillon"
+        android:inputType="textMultiLine|numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/signeEuro"
+        app:layout_constraintStart_toStartOf="@+id/depotLegal"
+        app:layout_constraintTop_toBottomOf="@+id/textePrixEchantillon" />
+
+    <EditText
+        android:id="@+id/famCode"
+        style="@style/textes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:autofillHints="@string/hint_depotLegal"
+        android:hint="@string/hint_famCode"
+        android:inputType="textMultiLine|text"
+        app:layout_constraintEnd_toEndOf="@+id/depotLegal"
+        app:layout_constraintStart_toStartOf="@+id/depotLegal"
+        app:layout_constraintTop_toBottomOf="@+id/texteFamCode" />
+
+    <TextView
+        android:id="@+id/signeEuro"
+        style="@style/textes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:text="@string/signeEuro"
+        app:layout_constraintEnd_toEndOf="@+id/nomCommercial"
+        app:layout_constraintTop_toTopOf="@+id/prixEchantillon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

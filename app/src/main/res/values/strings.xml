@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Barres de navigations -->
+    <string name="app_name">GsbParam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_pra">Voir praticiens</string>
+    <string name="menu_med">Voir médicaments</string>
+    <string name="menu_off">Offrir médicament</string>
+    <string name="menu_quitter">Quitter</string>
+
+    <string name="enteteAccueil">GSBParam - Accueil</string>
+    <string name="enteteListePra">Liste des praticitens</string>
+    <string name="enteteListeMed">Liste des médicaments</string>
+    <string name="enteteOffrir">Offrir un médicament</string>
+    <!-- Barres de navigations -->
+
+
+    <!-- Fragment Accueil -->
+    <string name="texte_accueil">Bienvenue sur l\'application GSBParam !</string>
+    <string name="btnAccAffPra">Voir les praticiens</string>
+    <string name="btnAccAffMed">Voir les médicaments</string>
+    <string name="btnAccOffMed">Offrir un médicament</string>
+    <!-- !Fragment Accueil -->
+
+
+    <string name="texte_listePra">Voici la liste des praticiens</string>
+    <string name="texte_listeMed">Veuillez choisir un médicament :</string>
+    <string name="texte_offrir">Voici le formulaire pour offrir un médicament</string>
+
+
+    <!-- Fragment Liste Médicaments -->
+    <string name="infosMed_titre">Informations du médicament</string>
+    <string name="infosMed_depotLegal">Dépot légal :</string>
+    <string name="infosMed_nomCommercial">Nom commercial :</string>
+    <string name="infosMed_prixEchantillon">Prix d\'un echantillon :</string>
+    <string name="infosMed_famCode">Code de la famille :</string>
+    <string name="signeEuro">€</string>
+
+    <string name="hint_depotLegal">Dépot légal</string>
+    <string name="hint_nomCommercial">Nom commercial</string>
+    <string name="hint_prixEchantillon">Prix</string>
+    <string name="hint_famCode">Famille</string>
+    <!-- Fragment Liste Médicaments -->
+
+</resources>

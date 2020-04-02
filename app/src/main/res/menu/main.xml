@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_accueil" />
+        <item
+            android:id="@+id/nav_pra"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_pra" />
+        <item
+            android:id="@+id/nav_med"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_med" />
+        <item
+            android:id="@+id/nav_off"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_off" />
+        <item
+            android:id="@+id/nav_quitter"
+            android:title="@string/menu_quitter" />
+    </group>
+</menu>
